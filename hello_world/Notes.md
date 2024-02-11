@@ -172,8 +172,8 @@ Save the base pointer from the calling funciton on the stack
 Move the stack pointer value to the base pointer.
 ### Purpose: 
 Set up the base pointer for the current stack frame. Allows
-         local variables & function parameters to be accessed realitive
-         to %rbp.
+local variables & function parameters to be accessed realitive
+to %rbp.
 0x0000000100003f41 <+1>:     mov    %rsp,  %rbp
 
 ## <main+4>
@@ -194,7 +194,6 @@ Appears to be setting up another local variable or temporary
          space to 0. Might be unused or reserved for other reasons.
 0x0000000100003f48 <+8>:     movl   $0x0,-0x4(%rbp)
 
-## <main
 
 
 
